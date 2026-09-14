@@ -24,14 +24,6 @@ Aplikasi web sederhana untuk mencatat dan mengelola tugas harian.
 
 Halaman utama digunakan untuk menampilkan daftar tugas yang telah dibuat. User dapat menambahkan tugas baru, menandai tugas sebagai selesai, mengedit, atau menghapus tugas.
 
-![Todo List](screenshots/home.png)
-
-### Halaman Edit
-
-Halaman edit digunakan untuk mengubah nama atau judul tugas yang sudah dibuat.
-
-![Edit Todo](screenshots/edit.png)
-
 ## Cara Menjalankan
 
 1. Clone repository.
