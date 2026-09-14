@@ -26,8 +26,8 @@ Halaman utama digunakan untuk menampilkan daftar tugas yang telah dibuat. User d
 ### 1. Clone Repository
 
 ```bash
-git clone <url-repository>
-cd todo_list
+git clone https://github.com/HariisDermawan/todo-list.git
+cd todo-list
 ```
 
 ### 2. Cek Virtual Environment
