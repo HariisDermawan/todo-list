@@ -17,20 +17,48 @@ Aplikasi web sederhana untuk mencatat dan mengelola tugas harian.
 * Tandai tugas selesai
 * Hapus tugas
 
-### Halaman Utama
+## Halaman Utama
 
 Halaman utama digunakan untuk menampilkan daftar tugas yang telah dibuat. User dapat menambahkan tugas baru, menandai tugas sebagai selesai, mengedit, atau menghapus tugas.
 
 ## Cara Menjalankan
 
-1. Clone repository.
-2. Install dependency:
+### 1. Clone Repository
+
+```bash
+git clone <url-repository>
+cd todo_list
+```
+
+### 2. Cek Virtual Environment
+
+Pastikan folder `venv` tersedia:
+
+```powershell
+dir .\venv\Scripts
+```
+
+Pastikan terdapat file `Activate.ps1`.
+
+### 3. Aktifkan Virtual Environment
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Jika berhasil, terminal akan berubah menjadi:
+
+```text
+(venv) PS C:\Users\darma\todo_list>
+```
+
+### 4. Install Dependency
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Buat database MySQL:
+### 5. Buat Database MySQL
 
 ```sql
 CREATE DATABASE daily_task_db;
@@ -45,15 +73,39 @@ CREATE TABLE tasks (
 );
 ```
 
-4. Sesuaikan konfigurasi database di `config.py`.
-5. Jalankan aplikasi:
+### 6. Konfigurasi Database
+
+Sesuaikan `config.py`:
+
+```python
+MYSQL_HOST = "localhost"
+MYSQL_USER = "root"
+MYSQL_PASSWORD = ""
+MYSQL_DATABASE = "daily_task_db"
+```
+
+### 7. Jalankan Aplikasi
 
 ```bash
 python app.py
 ```
 
-6. Buka:
+Kemudian buka:
 
 ```text
 http://127.0.0.1:5000
+```
+
+### 8. Menghentikan Aplikasi
+
+Tekan:
+
+```text
+CTRL + C
+```
+
+Untuk keluar dari virtual environment:
+
+```bash
+deactivate
 ```
