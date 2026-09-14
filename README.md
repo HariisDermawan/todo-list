@@ -96,16 +96,6 @@ Kemudian buka:
 http://127.0.0.1:5000
 ```
 
-### 8. Menghentikan Aplikasi
-
-Tekan:
-
-```text
-CTRL + C
-```
-
-Untuk keluar dari virtual environment:
-
 ```bash
 deactivate
 ```
