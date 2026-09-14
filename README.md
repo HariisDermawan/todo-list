@@ -13,12 +13,9 @@ Aplikasi web sederhana untuk mencatat dan mengelola tugas harian.
 ## Fitur
 
 * Tambah tugas
-* Lihat tugas
 * Edit tugas
 * Tandai tugas selesai
 * Hapus tugas
-
-## Tampilan Web
 
 ### Halaman Utama
 
